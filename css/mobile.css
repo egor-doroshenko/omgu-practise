@@ -1,0 +1,214 @@
+@media screen and (max-width: 1080px) {
+    
+}
+
+
+@media (max-width: 1080px) {
+    /* common */
+    .text-box {
+        width: 100%;
+    }
+
+    /* up button */
+    .upButton {
+        width: 80px;
+        height: 40px;
+        bottom: 20px;
+        right: 10px;
+    }
+
+    /* header */
+    .header {
+        position: static;
+        width: 100%;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        flex-direction: column;
+        background-color: #717CFF;
+    }
+
+    .header__logo {
+        height: 88px;
+        margin-left: 0;
+    }
+
+    .header__nav {
+        margin-right: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100%;
+        min-height: 90px;
+    }
+
+    .header__link {
+        margin-left: 10px;
+        color: #ffffff;
+    }
+
+    /* intro */
+    .intro {
+        position: static;
+        padding-top: 50px;
+    }
+
+    .intro__title {
+        text-align: center;
+        margin: 20px auto;
+        font-size: 36px;
+        z-index: 2;
+        color: #ffffff;
+        font-weight: 500;
+    }
+
+    .intro__text {
+        text-align: center;
+        margin: 20px auto;
+        z-index: 2;
+        color: #ffffff;
+    }
+
+    .intro__button {
+        max-width: 90%;
+        margin: 0 auto;
+        font-size: 22px;
+        z-index: 2;
+    }
+
+    .intro__img-bg {
+        top: 200px;
+    }
+
+    .intro__img {
+        position: static;
+        width: 100%;
+    }
+
+    /* professions */
+    .professions {
+        margin-top: 0;
+    }
+
+    /* life */
+    .life {
+        padding: 20px 10px;
+    }
+
+    .life__container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .life__block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .life__block-title {
+        text-align: center;
+    }
+
+    .life__block-img {
+        max-width: 90%;
+        margin: 20px 0;
+    }
+
+    /* teachers */
+    .teachers {
+        padding: 20px 10px;
+    }
+
+    .teachers__block-title {
+        text-align: center;
+    }
+
+    /* feedback */
+    .feedback {
+        padding: 20px 10px;
+    }
+
+    .feedback__container {
+        width: 100%;
+    }
+
+    .feedback__author {
+        flex-direction: column;
+    }
+
+    .feedback__author-img {
+        margin-bottom: 30px;
+        width: 80%;
+    }
+
+    /* forms */
+    .forms {
+        padding: 20px 10px;
+    }
+
+    /* courses */
+    .courses {
+        padding: 20px 10px;
+    }
+
+    .courses__block {
+        width: 100%;
+    }
+
+    .courses__block-title {
+        text-align: center;
+    }
+
+    /* docs */
+    .docs {
+        padding: 10px 20px 0;
+    }
+
+    /* contactd */
+    .contacts {
+        padding: 10px 20px 0;
+    }
+
+    /* question */
+    .question {
+        padding: 10px 20px 0;
+    }
+
+    .question__form {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 50px;
+    }
+
+    /* footer */
+    .footer {
+        align-items: center;
+        justify-content: flex-start;
+        height: auto;
+        flex-direction: column;
+        padding: 30px 0 200px;
+    }
+
+    .footer__info, .footer__logo {
+        margin-right: auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer__logo {
+        margin: 10px auto;
+    }
+
+    .footer__nav {
+        align-items: center;
+    }
+
+    .footer__link {
+        margin: 5px 10px;
+    }
+}
+
+
